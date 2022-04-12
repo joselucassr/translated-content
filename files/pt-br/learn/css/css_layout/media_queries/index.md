@@ -80,11 +80,11 @@ A media query seguinte somente aplicará o tamanho da fonte no `body` para 12pt 
 
 Após especificar o tipo, você pode então determinar uma característica da mídia usando uma regra.
 
-#### Width and height
+#### Largura e Altura
 
-The feature we tend to detect most often in order to create responsive designs (and that has widespread browser support) is viewport width, and we can apply CSS if the viewport is above or below a certain width — or an exact width — using the `min-width`, `max-width`, and `width` media features.
+A característica que tendemos a usar mais para criar designs responsivos (com grande compatibilidade entre navegadores) é a largura da janela de exibição. Podemos usar ela para aplicar CSS se a janela de exibição está acima ou abaixo de uma determinada largura — ou com uma largura exata — usando `min-width`, `max-width` e `width` como regras de características.
 
-These features are used to create layouts that respond to different screen sizes. For example, to change the body text color to red if the viewport is exactly 600 pixels, you would use the following media query.
+Essas regras são usadas para criar layouts que respondem a diferentes tamanhos de telas. Por exemplo, para mudar a cor do texto do `body` para vermelho caso a janela de exibição estiver com exatos 600 píxeis, você poderia usar a seguinte media query.
 
 ```css
 @media screen and (width: 600px) {
@@ -94,9 +94,9 @@ These features are used to create layouts that respond to different screen sizes
 }
 ```
 
-[Open this example](https://mdn.github.io/css-examples/learn/media-queries/width.html) in the browser, or [view the source](https://github.com/mdn/css-examples/blob/main/learn/media-queries/width.html).
+[Abrir este exemplo](https://mdn.github.io/css-examples/learn/media-queries/width.html) no navegador, ou [ver fonte](https://github.com/mdn/css-examples/blob/main/learn/media-queries/width.html).
 
-The `width` (and `height`) media features can be used as ranges, and therefore be prefixed with `min-` or `max-` to indicate that the given value is a minimum, or a maximum. For example, to make the color blue if the viewport is narrower than 600 pixels, use `max-width`:
+A característica `width` (e `height`) pode ser usada como uma faixa de números, assim prefixada com `min-` ou `max-` para indicar que o valor passado é um mínimo, ou um máximo. Por exemplo, para tornar a cor do texto azul caso a janela de exibição tenha no máximo 600 píxeis, use `max-width`:
 
 ```css
 @media screen and (max-width: 600px) {
@@ -106,11 +106,11 @@ The `width` (and `height`) media features can be used as ranges, and therefore b
 }
 ```
 
-[Open this example](https://mdn.github.io/css-examples/learn/media-queries/max-width.html) in the browser, or [view the source](https://github.com/mdn/css-examples/blob/main/learn/media-queries/max-width.html).
+[Abrir este exemplo](https://mdn.github.io/css-examples/learn/media-queries/max-width.html) no navegador, ou [ver fonte](https://github.com/mdn/css-examples/blob/main/learn/media-queries/max-width.html).
 
-In practice, using minimum or maximum values is much more useful for responsive design so you will rarely see `width` or `height` used alone.
+Na prática, usamos valores mínimos ou máximos já que são mais úteis para criar designs responsivos, então você raramente verá `width` ou `height` usados sozinhos.
 
-There are a number of other media features that you can test for, although some of the newer features introduced in Level 4 and 5 of the media queries specification have limited browser support. Each feature is documented on MDN along with browser support information, and you can find a full list at [Using Media Queries: Media Features](/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#media_features).
+Existem alguns outros tipos de mídia que você pode testar, mas considere que algumas das funcionalidades introduzidas nos Níveis 4 e 5 das especificações das media queries ainda tem compatibilidade com navegadores limitada. Cada uma das funcionalidades está documentada no MDN junto a uma lista de compatibilidade dos navegadores, e você pode encontrar a lista completa em [Usando Media Queries](/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries#media_features).
 
 #### Orientation
 
