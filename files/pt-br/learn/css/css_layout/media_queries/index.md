@@ -112,9 +112,9 @@ Na prática, usamos valores mínimos ou máximos já que são mais úteis para c
 
 Existem alguns outros tipos de mídia que você pode testar, mas considere que algumas das funcionalidades introduzidas nos Níveis 4 e 5 das especificações das media queries ainda tem compatibilidade com navegadores limitada. Cada uma das funcionalidades está documentada no MDN junto a uma lista de compatibilidade dos navegadores, e você pode encontrar a lista completa em [Usando Media Queries](/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries#media_features).
 
-#### Orientation
+#### Orientação
 
-One well-supported media feature is `orientation`, which allows us to test for portrait or landscape mode. To change the body text color if the device is in landscape orientation, use the following media query.
+Uma característica de mídia muito bem suportada é a `orientation`, que permite checar se a mídia está em modo paisagem(`landscape`) ou retrato(`portrait`). Para mudar a cor do texto do `body` se o dispositivo estiver na orientação de paisagem, use a seguinte media query.
 
 ```css
 @media (orientation: landscape) {
@@ -124,9 +124,9 @@ One well-supported media feature is `orientation`, which allows us to test for p
 }
 ```
 
-[Open this example](https://mdn.github.io/css-examples/learn/media-queries/orientation.html) in the browser, or [view the source](https://github.com/mdn/css-examples/blob/main/learn/media-queries/orientation.html).
+[Abrir este exemplo](https://mdn.github.io/css-examples/learn/media-queries/orientation.html) no navegador, ou [ver fonte](https://github.com/mdn/css-examples/blob/main/learn/media-queries/orientation.html).
 
-A standard desktop view has a landscape orientation, and a design that works well in this orientation may not work as well when viewed on a phone or tablet in portrait mode. Testing for orientation can help you to create a layout which is optimized for devices in portrait mode.
+A tela padrão de um computador possui a orientação de paisagem, e um design que funciona bem nessa orientação pode não funcionar bem quando vista em um celular, ou tablet, em modo retrato. Checar a orientação pode ajudar a criar layouts que sejam mais otimizados para dispositivos no modo retrato.
 
 #### Use of pointing devices
 
