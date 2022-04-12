@@ -60,7 +60,7 @@ Os tipos possíveis de mídia que você pode especificar são:
 - `print`
 - `screen`
 
-A media query seguinte somente aplicará o tamanho da fonte no body para 12pt se a página estiver sendo impressa. Não aplicará quando a página for carregada no navegador.
+A media query seguinte somente aplicará o tamanho da fonte no `body` para 12pt se a página estiver sendo impressa. Não aplicará quando a página for carregada no navegador.
 
 ```css
 @media print {
