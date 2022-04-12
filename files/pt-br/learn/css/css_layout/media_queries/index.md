@@ -17,22 +17,20 @@ Usar uma **Media Query CSS** permite aplicar estilos CSS somente quando o navega
 <table>
   <tbody>
     <tr>
-      <th scope="row">Prerequisites:</th>
+      <th scope="row">Pré-requisitos:</th>
       <td>
-        HTML basics (study
-        <a href="/en-US/docs/Learn/HTML/Introduction_to_HTML"
-          >Introduction to HTML</a
-        >), and an idea of how CSS works (study
-        <a href="/en-US/docs/Learn/CSS/First_steps">CSS first steps</a> and
-        <a href="/en-US/docs/Learn/CSS/Building_blocks">CSS building blocks</a
-        >.)
+        HTML básico (estude <a href="/pt-BR/docs/Learn/HTML/Introduction_to_HTML"
+          >Introdução ao HTML</a
+        >), e uma ideia de como CSS funciona (estude
+        <a href="/pt-BR/docs/Learn/CSS/First_steps">Primeiros passos com CSS</a> e
+        <a href="/pt-BR/docs/Learn/CSS/Building_blocks">Construindo blocos CSS</a
+        >).
       </td>
     </tr>
     <tr>
-      <th scope="row">Objective:</th>
+      <th scope="row">Objetivo:</th>
       <td>
-        To understand how to use media queries, and the most common approach for
-        using them to create responsive designs.
+        Ter um entendimento de como usar media queries, e o método mais comum de usá-las para criar designs responsivos. 
       </td>
     </tr>
   </tbody>
