@@ -52,15 +52,15 @@ Ela consiste em:
 - Uma expressão de mídia, sendo ela a regra, ou teste, que deve ser passado para que o CSS contido seja aplicado.
 - Um conjunto de regras aplicadas caso o teste passe e o tipo de mídia estiver correto.
 
-### Media types
+### Tipos de mídia
 
-The possible types of media you can specify are:
+Os tipos possíveis de mídia que você pode especificar são:
 
 - `all`
 - `print`
 - `screen`
 
-The following media query will only set the body to 12pt if the page is printed. It will not apply when the page is loaded in a browser.
+A media query seguinte somente aplicará o tamanho da fonte no body para 12pt se a página estiver sendo impressa. Não aplicará quando a página for carregada no navegador.
 
 ```css
 @media print {
@@ -70,11 +70,11 @@ The following media query will only set the body to 12pt if the page is printed.
 }
 ```
 
-> **Note:** the media type here is different from the so-called {{glossary("MIME type")}}.
+> **Nota:** o tipo de mídia difere do então chamado {{glossary("MIME type")}}.
 
-> **Note:** there were a number of other media types defined in the Level 3 Media Queries specification; these have been deprecated and should be avoided.
+> **Nota:** existiram vários outros tipos de mídia definidos nas [especificações de Nível 3 das Media Queries](https://www.w3.org/TR/mediaqueries-3/); eles caíram em desuso e devem ser evitados.
 
-> **Note:** Media types are optional; if you do not indicate a media type in your media query then the media query will default to being for all media types.
+> **Nota:** tipos de mídia são opcionais; se você não indicar um tipo de mídia, sua media query por padrão utilizará `all`.
 
 ### Media feature rules
 
