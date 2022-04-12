@@ -36,21 +36,21 @@ Usar uma **Media Query CSS** permite aplicar estilos CSS somente quando o navega
   </tbody>
 </table>
 
-## Media Query Basics
+## O básico de Media Queries
 
-The simplest media query syntax looks like this:
+A sintaxe mais simples de uma media query se parece com:
 
 ```css
-@media media-type and (media-feature-rule) {
-  /* CSS rules go here */
+@media tipo-de-midia and (regra-de-caracteristica-de-midia) {
+  /* Regras CSS vão aqui */
 }
 ```
 
-It consists of:
+Ela consiste em:
 
-- A media type, which tells the browser what kind of media this code is for (e.g. print, or screen).
-- A media expression, which is a rule, or test that must be passed for the contained CSS to be applied.
-- A set of CSS rules that will be applied if the test passes and the media type is correct.
+- Um tipo de mídia, que diz ao navegador para que tipo de mídia esse código é direcionado (p. ex. impressão ou telas).
+- Uma expressão de mídia, sendo ela a regra, ou teste, que deve ser passado para que o CSS contido seja aplicado.
+- Um conjunto de regras aplicadas caso o teste passe e o tipo de mídia estiver correto.
 
 ### Media types
 
