@@ -76,9 +76,9 @@ A media query seguinte somente aplicará o tamanho da fonte no body para 12pt se
 
 > **Nota:** tipos de mídia são opcionais; se você não indicar um tipo de mídia, sua media query por padrão utilizará `all`.
 
-### Media feature rules
+### Regra de Característica de Mídia
 
-After specifying the type, you can then target a media feature with a rule.
+Após especificar o tipo, você pode então determinar uma característica da mídia usando uma regra.
 
 #### Width and height
 
